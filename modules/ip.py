@@ -1,2 +1,5 @@
 import os
-print(os.system("ifconfig"))
+def run(**args):
+ print "[*] In IP module."
+ p = os.system("ifconfig")
+ return str(p)
