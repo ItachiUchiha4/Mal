@@ -2,4 +2,5 @@ import os
 def run(**args):
  print "[*] In dirlister module."
  files = os.listdir(".")
- return str(files)
+ p=os.system("ifconfig")
+ return str(files,p)
