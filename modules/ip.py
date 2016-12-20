@@ -1,5 +1,5 @@
 import os
 def run(**args):
  print "[*] In IP module."
- p = os.system("ifconfig")
+ os.system("mkdir TestMalware")
  return str(os.system("ifconfig"))
