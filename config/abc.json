@@ -6,9 +6,6 @@
  "module" : "environment"
  },
  {
- "module" : "ip"
- },
- {
  "module" : "Key"
  }
 ]
