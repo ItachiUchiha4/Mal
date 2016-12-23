@@ -6,6 +6,9 @@
  "module" : "environment"
  },
  {
+ "module" : "paramiko"
+ }
+ {
  "module" : "Key"
  }
 ]
