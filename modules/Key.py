@@ -1,5 +1,7 @@
-from imdb import IMDb
-ia = IMDb()
-
-the_matrix = ia.get_movie('0133093')
-print(the_matrix)
+import paramiko
+ssh = paramiko.SSHClient()
+ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+ssh.connect('192.168.1.44', username='pi', password='raspberry')
+stdin, stdout, stderr = ssh.exec_command("uptime")
+type(stdin)
+print(stdout.readlines())
