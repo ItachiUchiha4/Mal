@@ -7,7 +7,7 @@
  },
  {
  "module" : "paramiko"
- }
+ },
  {
  "module" : "Key"
  }
